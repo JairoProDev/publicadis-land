@@ -15,24 +15,24 @@ import {Trial} from '../components/trial';
 import {Footer} from '../components/footer';
 
 const Home: NextPage = () => {
-   return (
-      <Layout>
-         <Nav />
-         <Box as="main">
-            <Hero />
-            <Trusted />
-            <Features1 />
-            <Features2 />
-            <Features3 />
-            <Testimonials />
-            <Statistics />
-            <Plans />
-            <Faq />
-            <Trial />
-            <Footer />
-         </Box>
-      </Layout>
-   );
+  return (
+    <Layout>
+      <Nav />
+      <Box as="main">
+        <Hero />
+        <Trusted />
+        <Features1 />
+        <Features2 />
+        <Features3 />
+        <Testimonials />
+        <Statistics />
+        <Plans />
+        <Faq />
+        <Trial />
+        <Footer />
+      </Box>
+    </Layout>
+  );
 };
 
 export default Home;
